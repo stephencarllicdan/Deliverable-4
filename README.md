@@ -22,3 +22,4 @@ Animations are powered by AOS (Animate On Scroll), and navigation links scroll t
 
 ## 📂 Folder Structure
 
+- Final Project
