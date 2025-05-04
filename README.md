@@ -44,17 +44,15 @@ This fictional café website is designed to highlight the warmth and community s
 
 - "HTML5" – For building structured and semantic web content  
 - "CSS3" – For styling and layout  
-- **Google Fonts" – Typography customization  
-- **JavaScript – Basic interactivity and navigation
+- "Google Fonts" – Typography customization  
+- "JavaScript" – Basic interactivity and navigation
 
-> ⚠️ Note: Tailwind CSS is *not* used in this project. The site uses only custom CSS files.
-
-## 🚀 How to View the Project
+🚀 How to View the Project
 
 1. Clone or download the repository.
 2. Open `index.html` in your web browser.
 3. Use the top navigation or MENU button to explore other sections.
 
-## ✅ Submission Details
+✅ Submission Details
 
-This project fulfills the final website deliverable for our course. It was developed as a group submission with design fidelity, navigation behavior, and layout responsiveness in mind.
+This project fulfills the final website deliverable for our project. It was developed as a group submission with design fidelity, navigation behavior, and layout responsiveness in mind.
