@@ -1,0 +1,315 @@
+/* Reset + base */
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #000;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #caa77f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+  }
+
+  .footer h2 {
+    font-family: 'Smythe', cursive;
+    font-size: 3rem !important; /* adjust size as needed */
+    font-weight: normal; /* Smythe is a display font so normal weight looks best */
+    margin-bottom: 10px;
+  }
+  
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 60px;
+    height: auto;
+  }
+
+  .logo-text {
+    font-family: 'Smythe', cursive;
+    font-size: 3rem; /* or 3.5rem for extra impact */
+    margin-left: 10px;
+    color: #2c1b0f;
+  }  
+  
+  .nav a {
+    text-decoration: none;
+    margin-left: 25px;
+    color: #2c1b0f;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  /* About Section */
+  .about-section {
+    background-image: url('92f282d97b70bf62ae9064bcac7740ca_aroma-aromatic-art-434213.jpg'); /* Replace this */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+  }
+  
+  .about-content {
+    background-color: rgba(87, 48, 17, 0.8);
+    color: white;
+    padding: 60px;
+    border-radius: 50px;
+    max-width: 900px;
+    text-align: center;
+  }
+  
+  .about-content h2 {
+    font-size: 48px;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+  }
+  
+  .about-content p {
+    font-size: 20px;
+    line-height: 1.8;
+  }
+  
+
+
+
+
+
+  
+  .coffee-banner {
+    position: relative;
+    background-color: #BFA081;
+    height: 700px;
+    overflow: hidden;
+  }
+  
+  .coffee-bg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  
+  .latte-section {
+    position: relative;
+    background-color: #BFA081;
+    height: 700px;
+    overflow: hidden;
+  }
+  
+  .diagonal-strip {
+    position: absolute;
+    top: 45%; /* adjust as needed */
+    left: -30px;
+    width: 150%;
+    height: 100px;
+    background-color: #5a3210;
+    transform: rotate(5deg); /* ← flipped the slope! */
+    z-index: 0;
+  }
+  
+  
+  .latte-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 200px; /* push down onto line */
+    z-index: 2;
+  }
+  
+  
+
+  .latte-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+  
+  .latte-img {
+    width: 350px;
+    position: relative;
+    z-index: 2;
+    top: 15px; /* push latte downward */
+  }
+  
+  .beans-img {
+    position: absolute;
+    left: calc(50% - 200px); /* para nasa likod/left ng latte */
+    bottom: -35px; /* push beans downward */
+    width: 200px;
+    z-index: 1;
+  }
+  
+  
+  .decor-top {
+    position: absolute;
+    top: 30px;
+    right: -90px;
+    width: 305px;
+    z-index: 1;
+  }
+  
+  .decor-bottom {
+    position: absolute;
+    bottom: 30px;
+    left: -50px;
+    width: 250px;
+    z-index: 1;
+  }
+  
+  .latte-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+
+  .footer {
+    background-color: #724A24;
+    padding: 40px 20px;
+    color: #fff;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .footer-col {
+    flex: 1 1 200px;
+    min-width: 200px;
+  }
+  
+  .footer h2 {
+    font-family: 'Smythe', cursive;
+    font-size: 3rem; /* or adjust until it matches the design */
+    margin-bottom: 10px;
+  }
+  
+
+  .footer h3 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-mission {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+  
+  .footer-col ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-col ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-col a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-col a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-icons a img {
+    width: 24px;
+    margin-right: 10px;
+  }
+
+  .footer-mission {
+    font-size: 0.95rem;
+    margin: 10px 0 20px 0;
+    line-height: 1.5;
+  }
+
+  .footer-col img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+
+  .footer-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .footer-icon {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+  .footer-icon-social {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    margin-right: 10px; /* <--- Ito ang dagdag para may spacing sa pagitan */
+  }
+  
+  
+  .footer-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .footer-social {
+    margin-top: 40px; /* Pwede rin 30px, depende sa tingin mo */
+  }
+  
+  .nav-links a {
+    position: relative;
+    font-size: 1.5rem;
+    font-family: 'Microsoft Himalaya', sans-serif;
+    color: black;
+    text-decoration: none;
+    padding-bottom: 5px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0%;
+    background-color: black;
+    transition: width 0.3s ease;
+  }
+  
+  .nav-links a:hover::after {
+    width: 100%;
+  }
+  
+  
+  
+  

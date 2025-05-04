@@ -1,0 +1,537 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Georgia', serif;
+    background-color: #BFA081;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c1a383;
+    padding: 1em 2em;
+  }
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo-container img {
+    height: 70px; /* or 48px, adjust as needed */
+    width: auto;
+  }
+  
+
+  @import url('https://fonts.googleapis.com/css2?family=Smythe&display=swap');
+
+  .brewhaus-logo-text {
+    font-family: 'Smythe', cursive;
+    font-size: 2.5rem;
+    margin: 0;
+    line-height: 1; /* helps align it closer to the logo */
+  }
+
+.brewhaus-logo-img {
+  height: 56px;
+  width: auto;
+  display: block; /* remove extra space below image */
+}
+
+   
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .hero {
+    background: url('iStock-814684194-coffee-x.jpg') no-repeat center center/cover;
+    color: white;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+  }
+  
+  .hero-text {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  .hero-text button {
+    font-family: 'Smythe', cursive;
+    background-color: #724A24;
+    color: white;
+    border: none;
+    padding: 5px 0;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 50px;
+    width: 150px;           /* fixed width */
+    text-align: center;     /* center the text */
+  }
+  
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  nav a.active {
+    border-bottom: 2px solid #000;
+    color: #000;
+  }
+  
+  
+  .features {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 5em 2em;
+    background-color: #BFA081;
+    position: relative;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #eaeaea;
+    width: 369px;
+    height: 514px;
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card img {
+    width: 80px;
+    margin-bottom: 25px;
+  }
+  
+  .card h3 {
+    font-family: 'Georgia', serif;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #4d2c19;
+  }
+  
+  .card p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+    max-width: 90%;
+  }
+  
+  .features::before {
+    content: '';
+    background: url('ef4cb4480c6ed8ba6da9f8bf734646e8_image-removebg-preview%20\(2\).png') no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 150px;
+    background-size: contain;
+  }
+  
+  .features::after {
+    content: '';
+    background: url('beans-bottom-right.png') no-repeat;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 150px;
+    height: 150px;
+    background-size: contain;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Smythe&display=swap');
+
+  .section-title {
+    font-family: 'Smythe', cursive;
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+
+
+
+  
+
+
+  .carousel-section {
+    text-align: center;
+    padding: 3em 2em;
+    background-color: #E7C6A2;
+  }
+  
+  .section-title {
+    font-family: 'Smythe', cursive;
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .section-line {
+    width: 700px;
+    height: 1px;
+    background: rgb(255, 254, 254);
+    border: none;
+    margin: 0 auto 30px auto;
+  }
+  
+  .carousel-container {
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .carousel-track {
+    display: flex;
+    gap: 20px;
+    animation: scrollCarousel 20s linear infinite;
+  }
+  
+  .carousel-item {
+    min-width: 280px;
+    height: 300px;
+    background-color: #987554;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    display: block;
+    border-radius: 0;
+    margin: 0;
+  }
+  
+  .carousel-card-content {
+    padding: 0.5rem 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .carousel-card-content h3 {
+    font-size: 1rem;
+    font-family: 'Bangers', cursive;
+    color: white;
+    margin: 0;
+    line-height: 1.2;
+  }
+  
+  .carousel-card-content p {
+    font-size: 0.85rem;
+    font-family: 'Bangers', cursive;
+    color: white;
+    margin-top: 0.2rem;
+  }
+  
+  .carousel-card-content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.3em;
+  }
+  
+  .carousel-card-content p {
+    font-size: 1rem;
+  }
+  
+  @keyframes scrollCarousel {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+  
+
+  
+
+  
+  .gallery-carousel .carousel-item {
+    width: 280px;
+    height: 390px;
+    padding: 0;
+  }
+
+  .gallery-carousel .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:wght@400;700&display=swap');
+
+  .mission {
+    background-color: #BFA081;
+    padding: 80px 20px;
+    position: relative;
+  }
+  
+  .mission-wrapper {
+    max-width: 900px;
+    height: 700px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+  }
+  
+  .mission-text h2 {
+    font-size: 2rem;
+    margin-bottom: 50px;
+    z-index: 10;
+    position: relative;
+    color: white;
+  }
+
+  .mission-text p {
+    font-size: 35px;
+    line-height: 50px;
+    max-width: 700px;
+    margin: 0 auto;
+    z-index: 5;
+    position: relative;
+    color: white;
+    font-family: 'Gentium Book Plus', serif;
+  }
+  
+  /* Position images around the mission text */
+  .mission-img {
+    width: 262px;
+    height: 300px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.9;
+  }
+
+  .img-decor-left {
+    bottom: -30px;
+    left: -210px;
+    width: 170px;
+    height: 200px;
+    z-index: 0;
+    opacity: 0.8;
+  }
+
+  .img-decor-right {
+    top: 65%;
+    right: -200px;
+    transform: translateY(-50%);
+    width: 170px;
+    height: 200px;
+    z-index: 0;
+    opacity: 0.8;
+  }
+  
+  .img-top-left {
+    top: 0;
+    left: 750px;
+  }
+  
+  .img-top-right {
+    top: 0;
+    right: 700px;
+  }
+  
+  .img-bottom-left {
+    bottom: 0;
+    left: 0;
+  }
+  
+  .img-bottom-right {
+    bottom: 0;
+    right: 0;
+  }
+  
+  .footer-carousel {
+    background-color: #BFA081;
+    overflow: hidden;
+    padding: 40px 0;
+  }
+  
+  .footer-carousel-track {
+    display: flex;
+    width: max-content;
+    animation: scroll-footer 30s linear infinite;
+    gap: 20px;
+    padding-left: 20px;
+  }
+  
+  .footer-carousel-item img {
+    width: 220px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  @keyframes scroll-footer {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  
+
+  .footer {
+    background-color: #724A24;
+    padding: 40px 20px;
+    color: #fff;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .footer-col {
+    flex: 1 1 200px;
+    min-width: 200px;
+  }
+  
+  .footer h2 {
+    font-family: 'Smythe', cursive;
+    font-size: 3rem; /* or adjust until it matches the design */
+    margin-bottom: 10px;
+  }
+  
+
+  .footer h3 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-mission {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+  
+  .footer-col ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-col ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-col a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-col a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-icons a img {
+    width: 24px;
+    margin-right: 10px;
+  }
+
+  .footer-mission {
+    font-size: 0.95rem;
+    margin: 10px 0 20px 0;
+    line-height: 1.5;
+  }
+
+  .footer-col img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+
+  .footer-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .footer-icon {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+  .footer-icon-social {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+  }
+  
+  .footer-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .footer-social {
+    margin-top: 30px; /* Or adjust to 20px, 40px, depende sa gusto mong layo */
+  }
+  
+
+  .nav-links a {
+    position: relative;
+    font-size: 1.5rem;
+    font-family: 'Microsoft Himalaya', sans-serif;
+    color: black;
+    text-decoration: none;
+    padding-bottom: 5px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0%;
+    background-color: black;
+    transition: width 0.3s ease;
+  }
+  
+  .nav-links a:hover::after {
+    width: 100%;
+  }
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
