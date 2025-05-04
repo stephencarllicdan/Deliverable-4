@@ -1,0 +1,389 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #000;
+  }
+  
+  
+  .header {
+    background-color: #caa77f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+  }
+
+  .footer h2 {
+    font-family: 'Smythe', cursive;
+    font-size: 3rem !important; 
+    font-weight: normal; 
+    margin-bottom: 10px;
+  }
+  
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 60px;
+    height: auto;
+  }
+
+  .logo-text {
+    font-family: 'Smythe', cursive;
+    font-size: 3rem; 
+    margin-left: 10px;
+    color: #2c1b0f;
+  }  
+  
+  .nav a {
+    text-decoration: none;
+    margin-left: 25px;
+    color: #2c1b0f;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+ 
+  .about-section {
+    background-image: url('picture/92f282d97b70bf62ae9064bcac7740ca_aroma-aromatic-art-434213.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+  }
+  
+  .about-content {
+    background-color: rgba(87, 48, 17, 0.8);
+    color: white;
+    padding: 60px;
+    border-radius: 50px;
+    max-width: 900px;
+    text-align: center;
+  }
+  
+  .about-content h2 {
+    font-size: 48px;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+  }
+  
+  .about-content p {
+    font-size: 20px;
+    line-height: 1.8;
+  }
+  
+
+
+
+
+
+  
+  .coffee-banner {
+    position: relative;
+    background-color: #BFA081;
+    height: 700px;
+    overflow: hidden;
+  }
+  
+  .coffee-bg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  
+  .latte-section {
+    position: relative;
+    background-color: #BFA081;
+    height: 700px;
+    overflow: hidden;
+  }
+  
+  .diagonal-strip {
+    position: absolute;
+    top: 45%; 
+    left: -30px;
+    width: 150%;
+    height: 100px;
+    background-color: #5a3210;
+    transform: rotate(5deg); 
+    z-index: 0;
+  }
+  
+  
+  .latte-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 200px; 
+    z-index: 2;
+  }
+  
+  
+
+  .latte-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+  
+  .latte-img {
+    width: 350px;
+    position: relative;
+    z-index: 2;
+    top: 15px; 
+  }
+  
+  .beans-img {
+    position: absolute;
+    left: calc(50% - 200px); 
+    bottom: -35px; 
+    width: 200px;
+    z-index: 1;
+  }
+  
+  
+  .decor-top {
+    position: absolute;
+    top: 30px;
+    right: -90px;
+    width: 305px;
+    z-index: 1;
+  }
+  
+  .decor-bottom {
+    position: absolute;
+    bottom: 30px;
+    left: -50px;
+    width: 250px;
+    z-index: 1;
+  }
+  
+  .latte-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+
+  .footer {
+    background-color: #724A24;
+    padding: 40px 20px;
+    color: #fff;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .footer-col {
+    flex: 1 1 200px;
+    min-width: 200px;
+  }
+  
+  .footer h2 {
+    font-family: 'Smythe', cursive;
+    font-size: 3rem; 
+    margin-bottom: 10px;
+  }
+  
+
+  .footer h3 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-mission {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+  
+  .footer-col ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  
+  .footer-col ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-col a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-col a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-icons a img {
+    width: 24px;
+    margin-right: 10px;
+  }
+
+  .footer-mission {
+    font-size: 0.95rem;
+    margin: 10px 0 20px 0;
+    line-height: 1.5;
+  }
+
+  .footer-col img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+
+  .footer-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .footer-icon {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+  .footer-icon-social {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    margin-right: 10px; 
+  }
+  
+  
+  .footer-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .footer-social {
+    margin-top: 40px; 
+  }
+  
+  nav a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    
+  }
+  
+  nav a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px; 
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.2s ease;
+  }
+  
+  nav a:hover::after {
+    transform: scaleX(1);
+  }
+
+
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .footer-links a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .footer-links a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.2s ease;
+  }
+  
+  .footer-links a:hover::after {
+    transform: scaleX(1);
+  }
+  
+
+  .footer-links {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+    .footer-links li {
+    margin-bottom: 10px;
+    list-style: none;
+  }
+  
+  .footer-links a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .footer-links a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.2s ease;
+  }
+  
+  .footer-links a:hover::after {
+    transform: scaleX(1);
+  }
+  
+  
+  
+  
